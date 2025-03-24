@@ -1,3 +1,0 @@
-# The ISA Model
-
-The ISA standard is commonly used for collecting, currating, managing and reusing datasets in the field of life, environmental and biomedical sciences such as toxicology and plant sciences. Its hierarchical structure is built upon one Investigation (I), with one or more Studies (S) assigned, under which one or more Assays (A) are assigned. The Investigation, Studies and Assays, and corresponding terminology, are introduced below.
