@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="hi"
+                 name="isa-phm"
+                 start-page="dutch-progn-lab.md">
+
+    <toc-element topic="dutch-progn-lab.md"/>
+    <toc-element topic="isa-phm.md">
+        <toc-element topic="isa-model.md"/>
+    </toc-element>
+</instance-profile>
