@@ -3,7 +3,7 @@
 
 The ISA standard is commonly used for collecting, currating, managing and reusing datasets in the field of life, environmental and biomedical sciences such as toxicology and plant sciences. 
 
-The <a href="https://rioned-web-prod.azurewebsites.net/media/1iljdccy/ribx-formaat-voor-inspectie-en-reiniging.pdf" target="_blank">**ISA standard**</a> focusses on describing an entire project's metadata. It does not prescribe a format for a project's measurement data, e.g. whether a data file should be in a cetain time series structure of file format.
+The <a href="https://isa-specs.readthedocs.io/en/latest/isamodel.html" target="_blank">**ISA standard**</a> focusses on describing an entire project's metadata. It does not prescribe a format for a project's measurement data, e.g. whether a data file should be in a cetain time series structure of file format.
 
 > The ISA standard contains pointers, i.e. explicit references, of an experiment's measurement data to a data file. The content and data structure within a data file can be described in the ISA metadata, but it is up to the researcher(s) how to structure this.
 
@@ -12,7 +12,10 @@ The ISA standard is built upon:
 - Study (S), being part of Investigation 
 - Assay (A), being part of Study
 
-The Investigation, Study and Assay, and related concepts, are introduced here.
+The Investigation, Study and Assay, and related concepts, are introduced in the following sections.
+
+![ISA building blocks](ISA_content_xmp.png){width="550"}{thumbnail="true"}
+
 
 ## Investigation
 
@@ -48,23 +51,32 @@ One study can contain multiple assays. Where the study describes the experiment 
 ## Other relevant concepts
 
 ### Protocol
-bla
+A Process is a sequence of steps that are carried out during an experiment. Examples are data collection, data transformation and experiment preparation.
 
 ### Protocol Parameter
-bla
+A Protocol Parameter is a variable that is used in a protocol.
 
 ### Process
-bla
+A Process is an entity that applies some protocol to an input material, and produces output. For example, a data transformation process applies a data transformation protocol to a raw data file and generates a data file.
 
 ### Study Factor
-bla
+A Study Factor is an independent variable manipulated by the experimentalist with the intention to affect a system in a way that can be measured by an assay. For example, plant growth.
 
 ### Factor Value
-bla
+A FactorValue is a value of a StudyFactor.
 
+### Data File
+A Data File represents a pointer to a file that contains measurements from an assay.
 
-## ISA exchange format
+### Source
+A Source is the subject from which a Sample is taken.
 
-All captured information is stored in an output format. 
+### Sample
+A Sample is the subject to which a process is applied, after which measurements are obtained. A Sample is typically obtained from a Source.
 
+### Characteristic
+A Characteristic acts as a qualifying property for a material, sample or subject.
+
+### Model overview
+![ISA model](isa-model.png){width="550"}{thumbnail="true"}
 
