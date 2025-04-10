@@ -7,7 +7,10 @@
                  start-page="dutch-progn-lab.md">
 
     <toc-element topic="dutch-progn-lab.md"/>
+    <toc-element topic="isa-model.md">
+        <toc-element topic="isa-usage.md"/>
+    </toc-element>
     <toc-element topic="isa-phm.md">
-        <toc-element topic="isa-model.md"/>
+        <toc-element topic="examples.md"/>
     </toc-element>
 </instance-profile>
