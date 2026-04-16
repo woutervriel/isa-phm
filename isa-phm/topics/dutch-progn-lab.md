@@ -1,13 +1,14 @@
 # Dutch Prognostics Lab
 
 The Dutch Prognostics Lab is a project initiated by the Dutch Ministry of Defense. 
-It started at the beginning of 2024 and ends at the end of 2025.
+It started at the beginning of 2024.
 
 The project is carried out by:  
 - Luc Keizers | University of Twente | [l.keizers@isa-phm.com](mailto:l.keizers@isa-phm.com)
 - Wouter van Riel | infralytics | [wouter.van.riel@infralytics.org](mailto:wouter.van.riel@infralytics.org)
 - Tiedo Tinga | University of Twente, Ministry of Defense | [t.tinga@mindef.nl](mailto:t.tinga@mindef.nl)
 
+More information about the Dutch Prognostics Lab can be found on the official website: <a href="https://nl-prognostics.nl" target="_blank">Dutch Prognostics Lab website</a>
 
 ## Project goal
 
